@@ -20,7 +20,8 @@ def cem_primos():
         if len(lista) >= 100:
             break
         cont = 0
-    return str(lista)
+    a = str(lista)
+    return a
 
 
 if __name__ == "__main__":
